@@ -36,3 +36,7 @@
 		'../images/bridge.jpg',
 		300px, center center);
 }
+
+.mybridge {
+	@include backImage2("../images/bridge.jpg", 400px);
+}
